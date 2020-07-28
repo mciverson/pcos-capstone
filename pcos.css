@@ -125,6 +125,40 @@ h2{
 	text-shadow: 1px 1px 0 #797676, 1px 1px 0 #272626;
 }
 
+.contactbar{
+	/* background-color: rgb(5, 5, 104); */
+	background-color: rgb(177, 40, 28);
+	font-size: small;
+	color: white;
+	line-height: 20px;
+	position: absolute;
+	margin-bottom: 0;
+	margin-top: 80%;
+	margin-right: 5px;
+}
+
+.contactbar .contact-info{
+	float: left;
+	/* background-color: rgb(5, 5, 104); */
+	background-color: rgb(177, 40, 28);
+	background-size: cover;
+	background-position: absolute;
+	margin-bottom: 0px;
+	width: 45%;
+	margin-bottom: 0px;
+	margin-left: 10px
+
+}
+
+.contactbar .aboutus{
+	float: right;
+	width: 45%;
+	background-color: rgb(177, 40, 28);
+	/* background-color: rgb(5, 5, 104); */
+	background-size: cover;
+	margin-right: 10px;
+}
+
 /* {
 	box-sizing: border-box;
 	margin: 0;

@@ -158,6 +158,13 @@ h2{
 	margin-right: 10px;
 }
 
+.prevmap {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+}
+
 /* {
 	box-sizing: border-box;
 	margin: 0;

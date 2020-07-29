@@ -97,6 +97,41 @@ h1{
   padding-bottom: 20px;
 }
 
+.physical-img {
+	display: block;
+	margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 45px;
+  font-style: oblique;
+  border: ridge;
+  color: rgb(56, 6, 56);
+  border-radius: 25px;
+  border-color: white;
+}
+h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 45px;
+  font-style: oblique;
+  border: ridge;
+  color: rgb(56, 6, 56);
+  border-radius: 25px;
+  border-color: white;
+}
+
+ol > li {
+  font-size: 25px;
+}
+
 
 
 

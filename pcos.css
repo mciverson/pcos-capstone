@@ -98,9 +98,14 @@ h2{
 	margin-top: 10px;
 }
 
+h3 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 45px;
+}
+
 .boldletter{
 	font-size: 60px;
-	font-family: ;
 	color: rgb(56, 6, 56);
 	background: none repeat scroll 0 0;
 	text-shadow: 3px 3px 0 #EEEEEE, 5px 5px 0 #707070;
@@ -114,6 +119,7 @@ h2{
 	width: 30%;
 	height: auto;
 }
+<<<<<<< HEAD
 /* I was trying to add the parallax scrolling effect but it didn't work
 .parallax {
 	background-image:url('women.png');
@@ -129,6 +135,25 @@ h2{
 		background-attachment: scroll ;
 	}
 }*/
+=======
+
+.mental-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+	height: 250px;
+}
+
+.nutrition-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+>>>>>>> 595c8fed5481badb485defd33cb350332da146dc
 .pcosDescription p{
 	float: left;
 }
@@ -138,6 +163,89 @@ h2{
 	background: none repeat scroll 0 0;
 	text-shadow: 1px 1px 0 #797676, 1px 1px 0 #272626;
 }
+
+.contactbar{
+	/* background-color: rgb(5, 5, 104); */
+	background-color: rgb(177, 40, 28);
+	font-size: small;
+	color: white;
+	line-height: 20px;
+	position: absolute;
+	margin-bottom: 0;
+	margin-top: 80%;
+	margin-right: 5px;
+}
+
+.contactbar .contact-info{
+	float: left;
+	/* background-color: rgb(5, 5, 104); */
+	background-color: rgb(177, 40, 28);
+	background-size: cover;
+	background-position: absolute;
+	margin-bottom: 0px;
+	width: 45%;
+	margin-bottom: 0px;
+	margin-left: 10px
+
+}
+
+.contactbar .aboutus{
+	float: right;
+	width: 45%;
+	background-color: rgb(177, 40, 28);
+	/* background-color: rgb(5, 5, 104); */
+	background-size: cover;
+	margin-right: 10px;
+}
+
+#prevmap {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+}
+
+.grid-container {
+  display: grid;
+	grid-template-columns: auto auto auto;
+  /*background-color: #2196F3;*/
+	padding: 10px;
+}
+
+.waffles-img {
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: x-large;
+/*border: 1px solid rgba(0, 0, 0, 0.8);*/
+}
+
+.lunch-img {
+	text-align: center;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: x-large;
+	/*border: 1px solid rgba(0, 0, 0, 0.8);*/
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+.dinner-img {
+	text-align: center;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: x-large;
+	/*border: 1px solid rgba(0, 0, 0, 0.8);*/
+}
+
+.cover {
+	width: 100%;
+	height: 50%;
+	object-fit: cover;
+	display: block;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	overflow: hidden;
+}
+
 
 /* {
 	box-sizing: border-box;

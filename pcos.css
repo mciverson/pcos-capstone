@@ -128,23 +128,6 @@ h2{
 	width: 100%;
 	height: auto;
 }
-<<<<<<< HEAD
-/* I was trying to add the parallax scrolling effect but it didn't work
-.parallax {
-	background-image:url('women.png');
-	height: 100%;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-
-}
-@media only screen and (max-device-width: 1366px) {
-	.parallax {
-		background-attachment: scroll ;
-	}
-}*/
-=======
 
 .facts{
 	width: 70%;
@@ -163,18 +146,15 @@ h2{
 	margin-top: 30px;
 }
 
-<<<<<<< HEAD
+
 .factsbtn button{
 	border: double 5px rgb(56, 6, 56) ;
 	padding: 10px;
 	font-weight: bold;
-=======
+}
 
-
->>>>>>> 595c8fed5481badb485defd33cb350332da146dc
 .pcosDescription p{
 	float: left;
->>>>>>> c6c08a5e7a63146e0b55f773074e55e5486b4775
 }
 
 .factsbtn button:hover{
@@ -182,7 +162,6 @@ h2{
 	color: white;
 	background-color:  rgb(56, 6, 56) ;
 }
-
 
 .contactbar{
 	background-color: rgb(177, 40, 28);

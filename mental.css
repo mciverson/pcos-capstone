@@ -1,0 +1,130 @@
+body{
+	background-color: rgba(218, 164, 139, 0.596);
+}
+
+.mainbody {
+	background-image: url("http://blog.hostbaby.com/wp-content/uploads/2014/03/SeeingSpots_1400x900.jpg");
+	background-size: fit-content;
+	background-repeat: space;
+	background-color: rgba(206, 97, 47, 0.596);
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.navbar{
+	overflow: hidden;
+	background-color:rgba(148, 14, 14, 0.198);
+	margin-top: 0px;
+	width: 100%;
+}
+
+.logo{
+  float: left;
+  padding: 12px 16px;
+  color: white;
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(112, 17, 107);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1{
+	text-align: center;
+	font-weight: bold;
+	color: rgb(56, 6, 56);
+	font-size: 60px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+
+.mental-img {
+  display: block;
+  margin-right: 10%;
+  margin-left: 10%;
+  width: 80%;
+  max-height: 1000px;
+  margin-top: 30px;
+}
+
+.contactbar{
+	background-color: rgb(177, 40, 28);
+	font-size: small;
+	color: white;
+	line-height: 20px;
+	position: absolute;
+	margin-bottom: 0;
+	margin-top: 20%;
+	margin-right: 5px;
+}
+
+.contactbar .contact-info{
+	float: left;
+	background-color: rgb(177, 40, 28);
+	background-size: cover;
+	background-position: absolute;
+	margin-bottom: 0px;
+	width: 45%;
+	margin-bottom: 0px;
+	margin-left: 10px
+
+}
+
+.contactbar .aboutus{
+	float: right;
+	width: 45%;
+	background-color: rgb(177, 40, 28);
+	background-size: cover;
+	margin-right: 10px;
+}

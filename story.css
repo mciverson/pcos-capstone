@@ -97,6 +97,17 @@ h1{
   padding-bottom: 20px;
 }
 
+h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  font-style: oblique;
+  border: ridge;
+  color: rgb(56, 6, 56);
+  border-radius: 25px;
+  border-color: white;
+}
+
 .contactbar{
 	background-color: rgb(177, 40, 28);
 	font-size: small;

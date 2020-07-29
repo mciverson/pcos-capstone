@@ -114,7 +114,21 @@ h2{
 	width: 30%;
 	height: auto;
 }
+/* I was trying to add the parallax scrolling effect but it didn't work
+.parallax {
+	background-image:url('women.png');
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 
+}
+@media only screen and (max-device-width: 1366px) {
+	.parallax {
+		background-attachment: scroll ;
+	}
+}*/
 .pcosDescription p{
 	float: left;
 }

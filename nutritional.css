@@ -80,12 +80,14 @@ body{
   display: block;
 }
 
+
 h1{
 	text-align: center;
 	font-weight: bold;
 	color: rgb(56, 6, 56);
 	font-size: 60px;
-	margin-bottom: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
 }
 
 .nutrition-img {
@@ -95,8 +97,43 @@ h1{
   margin-top: 20px;
 }
 
+h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 45px;
+  font-style: oblique;
+  border: ridge;
+  color: rgb(56, 6, 56);
+  border-radius: 25px;
+  border-color: white;
+}
+
+ol > li {
+  font-size: 25px;
+}
+
+.recipes > a > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 250px;
+}
 
 
+
+.recipes > p {
+  text-align: center;
+  color: rgb(56, 6, 56);
+  border: dotted;
+  border-color: white;
+  font-size: 25px;
+  font-style: oblique;
+  border-radius: 10px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .contactbar{
 	background-color: rgb(177, 40, 28);

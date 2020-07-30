@@ -19,16 +19,22 @@ body{
 
 .logo{
   float: left;
-  padding: 12px 16px;
-	color: rgb(56, 6, 56);
 	font-style: oblique;
 	font-size: 30px;
 	font-weight: bold;
 	font-family: serif;
-	border: double;
+	border: double 5px;
 	border-color: whitesmoke;
 	border-radius: 25px;
-	width: fit-content;
+  width: fit-content;
+}
+
+#logo1{
+  font-size: 20px;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  padding: 12px 16px;
 }
 
 .navbar a {

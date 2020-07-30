@@ -126,7 +126,7 @@ h3 {
 #HCB_comment_box #hcb_form_email,
 #HCB_comment_box #hcb_form_name,
 #HCB_comment_box #hcb_form_website {
-background-color:rgba(206, 97, 47, 0.596);}
+background-color: rgba(218, 164, 139, 0.596);}
 
 /*#HCB_comment_box textarea {
   display:block;
@@ -137,9 +137,7 @@ background-color:rgba(206, 97, 47, 0.596);}
   width: 100%;
   border-radius: 25px;
  }*/
-.chat {
-  background-color: rgba(218, 164, 139, 0.596);
-}
+
 
 
 .contactbar{
@@ -150,7 +148,7 @@ background-color:rgba(206, 97, 47, 0.596);}
 	position: absolute;
 	margin-bottom: 0;
 	margin-top: 20%;
-	margin-right: 5px;
+  margin-right: 5px;
 }
 
 .contactbar .contact-info{

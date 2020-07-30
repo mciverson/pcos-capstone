@@ -149,3 +149,27 @@ h1{
 	background-size: cover;
 	margin-right: 10px;
 }
+
+.stats-img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  width: 250px;
+  height: 200px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 45px;
+  font-style: oblique;
+  border: ridge;
+  color: rgb(56, 6, 56);
+  border-radius: 25px;
+  border-color: white;
+}
+
+ul > li {
+  font-size: 25px;
+}

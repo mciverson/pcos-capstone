@@ -3,7 +3,7 @@ body{
 }
 
 .mainbody {
-	background-image: url("http://blog.hostbaby.com/wp-content/uploads/2014/03/SeeingSpots_1400x900.jpg");
+	background-image: url(pictures/background.jpg);
 	background-size: fit-content;
 	background-repeat: space;
 	background-color: rgba(206, 97, 47, 0.596);

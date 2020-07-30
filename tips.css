@@ -103,20 +103,24 @@ h3{
 	font-weight: bold;
 	color: rgb(56, 6, 56);
 	font-size: 25px;
-  margin-bottom: 0px;
-  padding-bottom: 20px;
+	font-style: oblique;
+	border: ridge;
+	border-radius: 25px;
+  border-color: white;
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-h3{
-	text-align: center;
-	font-weight: bold;
-	color: rgb(56, 6, 56);
-	font-size: 25px;
-  margin-bottom: 0px;
-  padding-bottom: 20px;
+#HCB_comment_box #hcb_form_content,
+#HCB_comment_box #hcb_form_email,
+#HCB_comment_box #hcb_form_name,
+#HCB_comment_box #hcb_form_website {
+background-color:rgba(206, 97, 47, 0.596);}
+
+.chat {
+  background-color: rgba(218, 164, 139, 0.596);
 }
-
-
 
 
 

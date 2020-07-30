@@ -106,7 +106,31 @@ h3 {
   color: rgb(56, 6, 56);
   border-radius: 25px;
   border-color: white;
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
 }
+
+
+#HCB_comment_box #hcb_form_content,
+#HCB_comment_box #hcb_form_email,
+#HCB_comment_box #hcb_form_name,
+#HCB_comment_box #hcb_form_website {
+background-color:rgba(206, 97, 47, 0.596);}
+
+/*#HCB_comment_box textarea {
+  display:block;
+  width:100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 25px;
+ }*/
+.chat {
+  background-color: rgba(218, 164, 139, 0.596);
+}
+
 
 .contactbar{
 	background-color: rgb(177, 40, 28);
